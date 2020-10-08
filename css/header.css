@@ -1,0 +1,20 @@
+.header {
+    padding-top: 51px;
+}
+
+.header__content {
+    background-color: darkred;
+    display: flex;
+    padding-top: 51px;
+    list-style: none;
+}
+
+.nav__menu {
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav__title {
+    color: darkred;
+}

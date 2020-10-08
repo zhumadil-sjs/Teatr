@@ -1,0 +1,9 @@
+body{
+    background-color: var(--dark);
+max-width: 1920px;
+margin: auto;
+}
+
+ul{
+list-style: none;
+}
