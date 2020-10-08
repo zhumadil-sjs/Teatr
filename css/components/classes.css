@@ -1,8 +1,10 @@
-.container
-{
-    max-width: 1110px;
+.container {
+    max-width: 1170px;
     margin: auto;
+    border: 2px solid red;
+    height: 100vh;
 }
+
 .flex {
     display: flex;
 }
