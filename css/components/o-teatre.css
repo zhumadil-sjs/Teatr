@@ -1,0 +1,125 @@
+.history{
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+.history__title{
+    position: absolute;
+width: 177px;
+height: 65px;
+left: 872px;
+top: 1195px;
+/* h2 / 48l */
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+white-space: nowrap;
+}
+.history__subtitle{
+    position: absolute;
+width: 445px;
+height: 23px;
+left: 405px;
+top: 1360px;
+
+/* p / 21b */
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.history__text{
+    position: absolute;
+width: 445px;
+height: 210px;
+left: 405px;
+top: 1423px;
+
+/* p / 14r */
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+}
+.info__number{
+    position: absolute;
+width: 255px;
+height: 23px;
+left: 880px;
+top: 1360px;
+
+/* p / 21b */
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+}
+.info__img{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 880px;
+top: 1423px;
+
+}
+.info__text{
+    position: absolute;
+width: 166px;
+height: 17px;
+left: 880px;
+top: 1508px;
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+}
+.info__img2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 880px;
+    top: 1550px;     
+}
+.info__text2{
+    
+position: absolute;
+width: 166px;
+height: 17px;
+left: 880px;
+top: 1635px;
+
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+}
+.theatr__img{
+    position: absolute;
+    width: 350px;
+    height: 292px;
+    left: 1165px;
+    top: 1360px;
+}

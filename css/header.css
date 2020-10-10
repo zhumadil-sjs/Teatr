@@ -1,13 +1,72 @@
 .header {
+    /* background: url(..//imagess/back.png) center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 1045px; */
     padding-top: 51px;
 }
-.header__logo{
-    
+.header__logo {
+    position: absolute;
+    width: 150px;
+    height: 1045px;
+    left: 0px;
+    top: 0px;
+    background: rgba(51, 51, 51, 0.75);
 }
 
+.inf__text {
+    position: absolute;
+    width: 242px;
+    height: 25px;
+    left: -44px;
+    top: 491px;
+    margin: 0;
+    white-space: nowrap;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+}
+.linie__svg{ 
+position: absolute;
+width: 80px;
+height: 0px;
+left: 35px;
+top: 705px;
+border: 3px solid #C4C4C4;
+transform: rotate(90deg);
+}
+.icons,.icons1,.icons2,.icons3{
+    position: absolute;
+    left: 64px;
+}
+.icons{
+    width: 26px;
+height: 26px;
+top: 785px;
+}
+.icons1{
+    width: 15px;
+height: 26px;
+top: 841px;
+}
+.icons2{
+    width: 26px;
+height: 14px;
+top: 896px;
+}
+.icons3{
+    width: 26px;
+height: 18px;
+top: 941px;
+}
 .header__content {
     display: flex;
-    /* border-bottom: 2px solid #D1A954; */
 }
 
 .header__nav {
@@ -25,7 +84,7 @@
 
 .nav__menu {
     padding-left: 0;
-    margin-top: 0;
+    margin: 0;
 }
 
 .nav__item a::before {
@@ -36,7 +95,7 @@
     position: absolute;
     height: 2px;
     width: 0%;
-    background-color: #D1A954;
+    background-color: var(--orange);
     transition: 0.2s;
 }
 
@@ -67,4 +126,64 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+.hero__btn {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: 1135px;
+    top: 812px;
+
+    /* p / 18b */
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+.hero__btn2 {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: 1332px;
+    top: 812px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__arrow {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 1070px;
+    top: 817px;
+    border: none;
+    box-sizing: border-box;
+    transform: rotate(360deg);
+}
+
+.hero__arrow2 {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 1400px;
+    top: 817px;
+    border: none;
+    box-sizing: border-box;
+    transform: rotate(180deg);
 }
