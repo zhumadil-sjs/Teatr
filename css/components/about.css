@@ -1,10 +1,10 @@
-.history {
+.about {
     color: var(--white);
     margin: 0;
     padding: 0;
 }
 
-.history__title {
+.about__title {
     position: absolute;
     width: 177px;
     height: 65px;
@@ -22,7 +22,8 @@
     white-space: nowrap;
 }
 
-.history__subtitle {
+.about__subtitle {
+    margin: 0;
     position: absolute;
     width: 445px;
     height: 23px;
@@ -37,7 +38,8 @@
     text-transform: uppercase;
 }
 
-.history__text {
+.about__text {
+    margin: 0;
     position: absolute;
     width: 445px;
     height: 210px;
@@ -51,6 +53,7 @@
 }
 
 .info__number {
+    margin: 0;
     position: absolute;
     width: 255px;
     height: 23px;
@@ -76,18 +79,19 @@
 }
 
 .info__text {
+    margin: 0;
     position: absolute;
     width: 166px;
     height: 17px;
     left: 880px;
     top: 1508px;
-
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .info__img2 {
@@ -99,13 +103,12 @@
 }
 
 .info__text2 {
-
+    margin: 0;
     position: absolute;
     width: 166px;
     height: 17px;
     left: 880px;
     top: 1635px;
-
     font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;

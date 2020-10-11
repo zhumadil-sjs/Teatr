@@ -1,0 +1,122 @@
+.projects {
+    padding-top: 150px;
+    margin: 0;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.projects__title {
+    position: absolute;
+    width: 398px;
+    height: 65px;
+    left: 761px;
+    top: 1802px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.projects__img {
+    padding-top: 100px;
+    margin: 0;
+}
+
+.img {
+    position: absolute;
+    width: 442px;
+    height: 550px;
+    left: 150px;
+    top: 1967px;
+}
+
+.img2 {
+    position: absolute;
+    width: 443px;
+    height: 550px;
+    left: 592px;
+    top: 1967px;
+}
+
+.img3 {
+    position: absolute;
+    width: 442px;
+    height: 550px;
+    left: 1036px;
+    top: 1967px;
+}
+
+.img4 {
+    position: absolute;
+    width: 442px;
+    height: 550px;
+    left: 1478px;
+    top: 1967px;
+}
+
+.projects__text {
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    left: 190px;
+    top: 2007px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* .projects__text2{} */
+.projects__text3 {
+    position: absolute;
+    width: 228px;
+    height: 33px;
+    left: 1076px;
+    top: 2007px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.projects__text4 {
+    position: absolute;
+    width: 134px;
+    height: 33px;
+    left: 1518px;
+    top: 2007px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.text{
+    position: absolute;
+width: 129px;
+height: 25px;
+left: 190px;
+top: 2477px;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+transform: rotate(-90deg);
+}
