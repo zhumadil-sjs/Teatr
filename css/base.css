@@ -2,6 +2,7 @@ body {
     background-color: var(--dark);
     max-width: 1920px;
     margin: auto;
+    position: relative;
 }
 ul {
     list-style: none;

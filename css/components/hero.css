@@ -4,7 +4,6 @@
     box-sizing: border-box;
     height: 1045px;
     color: var(--white);
-    position: absolute;
 }
 .hero__content{
     position: absolute;
