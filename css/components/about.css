@@ -2,6 +2,7 @@
     color: var(--white);
     margin: 0;
     padding: 0;
+    position: absolute;
 }
 
 .about__title {

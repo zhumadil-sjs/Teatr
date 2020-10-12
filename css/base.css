@@ -1,17 +1,11 @@
 body {
     background-color: var(--dark);
-    /* background: url(..//imagess/back.png) center no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    height: 1045px; */
     max-width: 1920px;
     margin: auto;
 }
-
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: var(--white);

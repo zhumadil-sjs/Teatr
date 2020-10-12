@@ -3,6 +3,7 @@
     margin: 0;
     color: var(--white);
     white-space: nowrap;
+    position: absolute;
 }
 
 .projects__title {

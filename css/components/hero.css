@@ -1,10 +1,14 @@
 .hero{
-    /* height: 100vh; */
+    background: url(../../imagess/back.png)center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 1045px;
     color: var(--white);
-    height: 970px;
-    border: 1px solid green;
+    position: absolute;
 }
 .hero__content{
+    position: absolute;
+    left: 405px;
     margin: 0;
     padding: 0;
 }
@@ -56,7 +60,7 @@
     position: absolute;
 width: 350px;
 height: 490px;
-left: 1070px;
+left: 665px;
 top: 267px;
 z-index: 1;
 }
@@ -64,8 +68,66 @@ z-index: 1;
     position: absolute;
 width: 350px;
 height: 490px;
-left: 1090px;
+left: 685px;
 top: 287px;
-
 background: linear-gradient(0deg, rgba(209, 169, 84, 0.85), rgba(209, 169, 84, 0.85)), url(афиша.png);
+}
+.hero__btn {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: 730px;
+    top: 812px;
+
+    /* p / 18b */
+
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+.hero__btn2 {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    left: 927px;
+    top: 812px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__arrow {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 665px;
+    top: 817px;
+    border: none;
+    box-sizing: border-box;
+    transform: rotate(360deg);
+}
+
+.hero__arrow2 {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 995px;
+    top: 817px;
+    border: none;
+    box-sizing: border-box;
+    transform: rotate(180deg);
 }
