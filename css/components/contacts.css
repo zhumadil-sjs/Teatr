@@ -1,0 +1,121 @@
+.contacts {
+    height: 355px;
+    border: 1px solid red;
+    color: var(--white);
+    margin: 0;
+}
+
+.contacts__title {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.contacts__menu {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts__item {
+    padding-top: 100px;
+}
+
+.contacts__item2 {
+    padding-top: 25px;
+
+}
+
+.contacts__item3 {
+    padding-top: 25px;
+
+}
+
+.contacts__item4 {
+    padding-top: 25px;
+}
+
+.form {
+    /* position: absolute; */
+    /* left: 785px; */
+}
+
+.form__text {
+    /* position: absolute; */
+    width: 390px;
+    height: 50px;
+    left: 785px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+.form__input {
+    /* position: absolute; */
+    width: 180px;
+    left: 785px;
+    height: 35px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+}
+
+.form__input2 {
+    /* position: absolute; */
+    width: 180px;
+    height: 35px;
+    left: 995px;
+    /* top: 4089px;  */
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+
+}
+
+.form__input3 {
+    /* position: absolute; */
+    width: 310px;
+    height: 100px;
+    left: 1205px;
+    /* top: 4089px;  */
+
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+}
+
+.form__input4 {
+    /* position: absolute; */
+    width: 180px;
+    height: 35px;
+    left: 785px;
+    top: 50px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+}
+
+.form__input5 {
+    /* position: absolute; */
+    width: 180px;
+    height: 35px;
+    left: 995px;
+    top: 50px;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+}

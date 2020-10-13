@@ -1,0 +1,45 @@
+.rating{
+    background: url(../../imagess/rating-back.png)center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 150px 405px;
+    height: 550px;
+    width: 1110px;
+    color: var(--white);
+}
+.rating__menu{
+    position: absolute;
+width: 182px;
+height: 298px;
+left: 595px;
+top: 2793px;
+margin: 0;
+padding: 0;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: var(--orange);
+}
+.stars{
+    position: absolute;
+width: 230px;
+height: 24px;
+left: 880px;
+top: 2838px;
+}
+.rating__text{
+    position: absolute;
+width: 540px;
+height: 149px;
+left: 880px;
+top: 2887px;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+}

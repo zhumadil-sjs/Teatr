@@ -6,4 +6,6 @@
 @import './components/hero.css';
 @import './components/about.css';
 @import './components/projects.css';
-
+@import './components/rating.css';
+@import './components/partners.css';
+@import './components/contacts.css';
