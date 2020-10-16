@@ -1,21 +1,22 @@
-.partners{
+.partners {
     width: 1034px;
     height: 437px;
-    border: 1px solid #008000;
     margin: 0 443px;
     color: var(--white);
 }
-.partners__title{
-font-family: Open Sans Condensed;
-font-style: normal;
-font-weight: 300;
-font-size: 48px;
-line-height: 65px;
-text-align: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-white-space: nowrap;
+
+.partners__title {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
-.partners__col{
-padding: 80px 0 0 0;
+
+.partners__col {
+    padding: 80px 0 0 0;
 }

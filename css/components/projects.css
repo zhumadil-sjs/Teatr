@@ -4,7 +4,6 @@
     height: 715px;
     color: var(--white);
     white-space: nowrap;
-    border: 1px solid red;
 }
 
 .projects__title {
@@ -105,23 +104,25 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
+
 .text {
 
-  position: absolute;
-width: 129px;
-height: 25px;
-left: 190px;
-top: 2477px;
-font-family: Open Sans Condensed;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 25px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-transform: rotate(-90deg) translate(50px, -50px);
+    position: absolute;
+    width: 129px;
+    height: 25px;
+    left: 190px;
+    top: 2477px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translate(50px, -50px);
 }
-.text2{
+
+.text2 {
     position: absolute;
     width: 97px;
     height: 25px;
@@ -136,7 +137,8 @@ transform: rotate(-90deg) translate(50px, -50px);
     text-transform: uppercase;
     transform: rotate(-90deg) translate(50px, -40px);
 }
-.text3{
+
+.text3 {
     position: absolute;
     width: 86px;
     height: 25px;

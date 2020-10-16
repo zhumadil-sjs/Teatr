@@ -2,13 +2,15 @@
     padding-top: 51px;
     position: absolute;
 }
-.nav__menu{
+
+.nav__menu {
     position: absolute;
-width: 1110px;
-height: 27px;
-left: 405px;
-top: 50px;
+    width: 1110px;
+    height: 27px;
+    left: 405px;
+    top: 50px;
 }
+
 .header__logo {
     position: absolute;
     width: 150px;
@@ -36,39 +38,49 @@ top: 50px;
     color: #C4C4C4;
     transform: rotate(-90deg);
 }
-.linie__svg{ 
-position: absolute;
-width: 80px;
-height: 0px;
-left: 35px;
-top: 705px;
-border: 3px solid #C4C4C4;
-transform: rotate(90deg);
+
+.linie__svg {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 35px;
+    top: 705px;
+    border: 3px solid #C4C4C4;
+    transform: rotate(90deg);
 }
-.icons,.icons1,.icons2,.icons3{
+
+.icons,
+.icons1,
+.icons2,
+.icons3 {
     position: absolute;
     left: 64px;
 }
-.icons{
+
+.icons {
     width: 26px;
-height: 26px;
-top: 785px;
+    height: 26px;
+    top: 785px;
 }
-.icons1{
+
+.icons1 {
     width: 15px;
-height: 26px;
-top: 841px;
+    height: 26px;
+    top: 841px;
 }
-.icons2{
+
+.icons2 {
     width: 26px;
-height: 14px;
-top: 896px;
+    height: 14px;
+    top: 896px;
 }
-.icons3{
+
+.icons3 {
     width: 26px;
-height: 18px;
-top: 941px;
+    height: 18px;
+    top: 941px;
 }
+
 .header__content {
     display: flex;
 }
@@ -131,4 +143,3 @@ top: 941px;
     text-transform: uppercase;
     white-space: nowrap;
 }
-

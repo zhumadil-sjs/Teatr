@@ -1,17 +1,19 @@
-.hero{
+.hero {
     background: url(../../imagess/back.png)center no-repeat;
     background-size: cover;
     box-sizing: border-box;
     height: 1045px;
     color: var(--white);
 }
-.hero__content{
+
+.hero__content {
     position: absolute;
     left: 405px;
     margin: 0;
     padding: 0;
 }
-.hero__title{
+
+.hero__title {
     margin: 0;
     position: absolute;
     width: 540px;
@@ -25,7 +27,8 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.hero__subtitle{
+
+.hero__subtitle {
     margin: 0;
     width: 540px;
     height: 79px;
@@ -36,7 +39,8 @@
     font-size: 14px;
     line-height: 150%;
 }
-.hero__button{
+
+.hero__button {
     margin-top: 50px;
     background-color: var(--orange);
     border-radius: 2px;
@@ -49,7 +53,7 @@
     line-height: 25px;
     display: flex;
     align-items: center;
-    text-align: center;  
+    text-align: center;
     justify-content: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -57,20 +61,22 @@
 
 .image3 {
     position: absolute;
-width: 350px;
-height: 490px;
-left: 665px;
-top: 267px;
-z-index: 1;
+    width: 350px;
+    height: 490px;
+    left: 665px;
+    top: 267px;
+    z-index: 1;
 }
-.image4{
+
+.image4 {
     position: absolute;
-width: 350px;
-height: 490px;
-left: 685px;
-top: 287px;
-background: linear-gradient(0deg, rgba(209, 169, 84, 0.85), rgba(209, 169, 84, 0.85)), url(афиша.png);
+    width: 350px;
+    height: 490px;
+    left: 685px;
+    top: 287px;
+    background: linear-gradient(0deg, rgba(209, 169, 84, 0.85), rgba(209, 169, 84, 0.85)), url(афиша.png);
 }
+
 .hero__btn {
     position: absolute;
     width: 43px;

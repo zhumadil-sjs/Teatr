@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
 
 
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -101,13 +103,13 @@
             </div>
         </div>
     </section>
-    <section class="projects"> 
-            <div class="projects__title"><span>НАШИ </span> ПОСТАНОВКИ</div>
-            <div class="projects__img flex">
+    <section class="projects">
+        <div class="projects__title"><span>НАШИ </span> ПОСТАНОВКИ</div>
+        <div class="projects__img flex">
             <img class="img" src="./imagess/projects/oskar.png" alt="">
             <div class="projects__text">ОСКАР 2020</div>
             <img class="img2" src="./imagess/projects/oskar2.png" alt="">
-            <img class="img3" src="./imagess/projects/oskar3.png" alt="">            
+            <img class="img3" src="./imagess/projects/oskar3.png" alt="">
             <div class="projects__text3">ЗОЛОТОЙ ГРАМОФОН</div>
             <img class="img4" src="./imagess/projects/oskar4.png" alt="">
             <div class="projects__text4">ЩЕЛКУНЧИК</div>
@@ -118,16 +120,17 @@
     </section>
     <section class="rating">
         <div class="container">
-                <ul class="rating__menu">
-                    <li>2018</li>
-                    <li>2019</li>
-                    <li>2020</li>
-                </ul>
-                <img src="./imagess/stars.svg" alt="" class="stars">
-                <div class="rating__text">Лучший театр
-                   <br> по мнению театральных
-                   <br> критиков Парижа</div>
+            <ul class="rating__menu">
+                <li>2018</li>
+                <li>2019</li>
+                <li>2020</li>
+            </ul>
+            <img src="./imagess/stars.svg" alt="" class="stars">
+            <div class="rating__text">Лучший театр
+                <br> по мнению театральных
+                <br> критиков Парижа
             </div>
+        </div>
     </section>
     <section class="partners">
         <div class="partners__title"> <span>ПАРТНЕРЫ</span> ТЕАТРА</div>
@@ -177,22 +180,50 @@
     <section class="contacts">
         <div class="container">
             <div class="contacts__title"><span>СТАТЬ</span> МЕЦЕНАТОМ</div>
-            <ul class="contacts__menu">
-                <li class="contacts__item">+7 (812) 123-45-55</li>
-                <li class="contacts__item2">+7 (812) 123-45-66</li>
-                <li class="contacts__item3">info@theater.ru</li>
-                <li class="contacts__item4">г. санкт-петербург, невский 140</li>
-            </ul>
-            <div class="form">
-                <p class="form__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. 
-                    Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
-                <label for="input"  id="input"><input id="input" type="text" class="form__input" placeholder="Имя"></label>
-                <label  for="input" id="input"><input id="input" type="text" class="form__input2" placeholder="Компания"></label>
-                <label  for="input" id="input"><input id="input" type="text" class="form__input3" placeholder="Сообщение "></label>
-                <label  for="input" id="input"><input id="input" type="text" class="form__input4" placeholder="Телефон"></label>
-                <label  for="input" id="input"><input id="input" type="text" class="form__input5" placeholder="E-mail"></label>
+            <div class="contacts__col__content row">
+                <div class="col-4">
+                    <div class="contacts__col">
+                        <ul class="contacts__menu">
+                            <li class="contacts__item">+7 (812) 123-45-55</li>
+                            <li class="contacts__item2">+7 (812) 123-45-66</li>
+                            <li class="contacts__item3">info@theater.ru</li>
+                            <li class="contacts__item4">г. санкт-петербург, <br> невский 140</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="contacts__col">
+                        <label for="name"><input id="name" type="text" class="form__input" placeholder="Имя"></label>
+                        <label for="telephone"><input id="telephone" type="text" class="form__input4"
+                                placeholder="Телефон"></label>
+                        <label for="company"><input id="company" type="text" class="form__input2"
+                                placeholder="Компания"></label>
+                        <label for="e-mail"><input id="e-mail" type="text" class="form__input5"
+                                placeholder="E-mail"></label>
+                                <p class="form__text">* Ваши данные не будут переданы третьим лицам, 100% вероятность.
+                                    Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="contacts__col">
+                        <label for="message"><input id="message" type="text" class="form__input3"
+                                placeholder="Сообщение "></label>
+                                <a class="contact__btn white">ОТПРАВИТЬ</a>
+                    </div>
+                </div>
             </div>
         </div>
+        </div>
     </section>
+    <footer class="footer">
+<div class="container">
+    <div class="footer__line "></div>
+    <div class="footer__item">
+        <p class="footer__text">(с) Все права защищены. Большой театр. 2020</p>
+<p class="footer__text2 ">Разработано d-e-n.ru</p>
+    </div>
+</div>        
+    </footer>
 </body>
+
 </html>
